@@ -1,0 +1,183 @@
+---------------------------- PROCESS STARTED (24938) for package com.example.practicequizz ----------------------------
+2026-10-20 20:31:33.534 24938-24938 MainActivity            com.example.practicequizz            D  onCreate: главный экран создан
+2026-10-20 20:31:33.535 24938-24938 MainActivity            com.example.practicequizz            D  onStart
+2026-10-20 20:31:33.537 24938-24938 MainActivity            com.example.practicequizz            D  onResume
+2026-10-20 20:31:33.547 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  synced displayState. AttachInfo displayState=2
+2026-10-20 20:31:33.547 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  setView = com.android.internal.policy.DecorView@8e51b45 TM=true
+2026-10-20 20:31:33.567 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)0 dur=5 res=0x403 s={true 0xb400007a35a38740} ch=true seqId=0
+2026-10-20 20:31:33.568 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  performConfigurationChange setNightDimText nightDimLevel=0
+2026-10-20 20:31:33.568 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            D  mThreadedRenderer.initialize() mSurface={isValid=true 0xb400007a35a38740} hwInitialized=true
+2026-10-20 20:31:33.571 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            D  reportNextDraw android.view.ViewRootImpl.performTraversals:4781 android.view.ViewRootImpl.doTraversal:3345 android.view.ViewRootImpl$TraversalRunnable.run:11437 android.view.Choreographer$CallbackRecord.run:1690 android.view.Choreographer$CallbackRecord.run:1699
+2026-10-20 20:31:33.571 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  Setup new sync=wmsSync-ViewRootImpl@e540f89[MainActivity]#0
+2026-10-20 20:31:33.571 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  Creating new active sync group ViewRootImpl@e540f89[MainActivity]#1
+2026-10-20 20:31:33.574 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  registerCallbacksForSync syncBuffer=false
+2026-10-20 20:31:33.576 24938-24977 ViewRootIm...nActivity] com.example.practicequizz            I  Received frameDrawingCallback syncResult=0 frameNum=1.
+2026-10-20 20:31:33.576 24938-24977 ViewRootIm...nActivity] com.example.practicequizz            I  mWNT: t=0xb400007a75a34450 mBlastBufferQueue=0xb4000079e5a278b0 fn= 1 mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$8.onFrameDraw:13946 android.view.ThreadedRenderer$1.onFrameDraw:792 <bottom of call stack>
+2026-10-20 20:31:33.577 24938-24977 ViewRootIm...nActivity] com.example.practicequizz            I  Setting up sync and frameCommitCallback
+2026-10-20 20:31:33.583 24938-24969 ViewRootIm...nActivity] com.example.practicequizz            I  Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+2026-10-20 20:31:33.584 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  reportDrawFinished seqId=0
+2026-10-20 20:31:33.594 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  handleWindowFocusChanged: 1 0 call from android.view.ViewRootImpl.-$$Nest$mhandleWindowFocusChanged:0
+2026-10-20 20:31:33.595 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            D  mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb400007a35a38740}
+2026-10-20 20:31:34.844 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  onDisplayChanged oldDisplayState=2 newDisplayState=2
+2026-10-20 20:31:37.223 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  ViewPostIme pointer 0
+2026-10-20 20:31:37.248 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  onDisplayChanged oldDisplayState=2 newDisplayState=2
+2026-10-20 20:31:37.261 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  ViewPostIme pointer 1
+2026-10-20 20:31:37.267 24938-24938 MainActivity            com.example.practicequizz            W  Пользователь не ввёл имя
+2026-10-20 20:31:37.893 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  ViewPostIme pointer 0
+2026-10-20 20:31:37.937 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  ViewPostIme pointer 1
+2026-10-20 20:31:38.096 24938-24957 ViewRootIm...nActivity] com.example.practicequizz            I  Resizing android.view.ViewRootImpl@e4c0efe: frame = [0,0][1080,2340] reportDraw = false forceLayout = false syncSeqId = -1
+2026-10-20 20:31:38.097 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  handleResized, msg = 4 frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} forceNextWindowRelayout=false displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false
+2026-10-20 20:31:38.121 24938-24957 ViewRootIm...nActivity] com.example.practicequizz            I  Resizing android.view.ViewRootImpl@e4c0efe: frame = [0,0][1080,2340] reportDraw = false forceLayout = false syncSeqId = -1
+2026-10-20 20:31:38.130 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  handleResized, msg = 4 frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} forceNextWindowRelayout=false displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false
+2026-10-20 20:31:38.485 24938-24977 ViewRootIm...nActivity] com.example.practicequizz            I  mWNT: t=0xb400007a75a2d0d0 mBlastBufferQueue=0xb4000079e5a278b0 fn= 7 mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:96 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:69 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$SgowXC58rj3PR958kHUfRgLZmvE:0
+2026-10-20 20:31:38.981 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  onDisplayChanged oldDisplayState=2 newDisplayState=2
+2026-10-20 20:31:39.224 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  onDisplayChanged oldDisplayState=2 newDisplayState=2
+2026-10-20 20:31:39.565 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  onDisplayChanged oldDisplayState=2 newDisplayState=2
+2026-10-20 20:31:40.327 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  ViewPostIme pointer 0
+2026-10-20 20:31:40.352 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  onDisplayChanged oldDisplayState=2 newDisplayState=2
+2026-10-20 20:31:40.366 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  ViewPostIme pointer 1
+2026-10-20 20:31:40.367 24938-24938 MainActivity            com.example.practicequizz            I  Начало викторины
+2026-10-20 20:31:40.385 24938-24938 MainActivity            com.example.practicequizz            D  onPause
+2026-10-20 20:31:40.437 24938-24938 QuizActivity            com.example.practicequizz            D  onCreate: экран викторины создан
+2026-10-20 20:31:40.438 24938-24938 QuizActivity            com.example.practicequizz            D  Показан вопрос 1
+2026-10-20 20:31:40.438 24938-24938 QuizActivity            com.example.practicequizz            D  onStart
+2026-10-20 20:31:40.439 24938-24938 QuizActivity            com.example.practicequizz            D  onResume
+2026-10-20 20:31:40.444 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  synced displayState. AttachInfo displayState=2
+2026-10-20 20:31:40.444 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  setView = com.android.internal.policy.DecorView@277a050 TM=true
+2026-10-20 20:31:40.467 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)0 dur=19 res=0x403 s={true 0xb400007a35a34320} ch=true seqId=0
+2026-10-20 20:31:40.467 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  performConfigurationChange setNightDimText nightDimLevel=0
+2026-10-20 20:31:40.468 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            D  mThreadedRenderer.initialize() mSurface={isValid=true 0xb400007a35a34320} hwInitialized=true
+2026-10-20 20:31:40.468 24938-25021 ViewRootIm...zActivity] com.example.practicequizz            I  Resizing android.view.ViewRootImpl@ffcf74e: frame = [0,0][1080,2340] reportDraw = true forceLayout = false syncSeqId = -1
+2026-10-20 20:31:40.469 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            D  reportNextDraw android.view.ViewRootImpl.performTraversals:4781 android.view.ViewRootImpl.doTraversal:3345 android.view.ViewRootImpl$TraversalRunnable.run:11437 android.view.Choreographer$CallbackRecord.run:1690 android.view.Choreographer$CallbackRecord.run:1699
+2026-10-20 20:31:40.469 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  Setup new sync=wmsSync-ViewRootImpl@2c29e4d[QuizActivity]#6
+2026-10-20 20:31:40.469 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  Creating new active sync group ViewRootImpl@2c29e4d[QuizActivity]#7
+2026-10-20 20:31:40.469 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  registerCallbacksForSync syncBuffer=false
+2026-10-20 20:31:40.471 24938-24976 ViewRootIm...zActivity] com.example.practicequizz            I  Received frameDrawingCallback syncResult=0 frameNum=1.
+2026-10-20 20:31:40.471 24938-24976 ViewRootIm...zActivity] com.example.practicequizz            I  mWNT: t=0xb400007a75a3a330 mBlastBufferQueue=0xb4000079e5a2fbf0 fn= 1 mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$8.onFrameDraw:13946 android.view.ThreadedRenderer$1.onFrameDraw:792 <bottom of call stack>
+2026-10-20 20:31:40.471 24938-24976 ViewRootIm...zActivity] com.example.practicequizz            I  Setting up sync and frameCommitCallback
+2026-10-20 20:31:40.477 24938-24969 ViewRootIm...zActivity] com.example.practicequizz            I  Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+2026-10-20 20:31:40.478 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  reportDrawFinished seqId=0
+2026-10-20 20:31:40.478 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  handleWindowFocusChanged: 0 0 call from android.view.ViewRootImpl.-$$Nest$mhandleWindowFocusChanged:0
+2026-10-20 20:31:40.480 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  handleResized, msg = 5 frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} forceNextWindowRelayout=false displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false
+2026-10-20 20:31:40.480 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  handleResized mSyncSeqId = 0
+2026-10-20 20:31:40.480 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            D  reportNextDraw android.view.ViewRootImpl.handleResized:2574 android.view.ViewRootImpl.-$$Nest$mhandleResized:0 android.view.ViewRootImpl$ViewRootHandler.handleMessageImpl:7267 android.view.ViewRootImpl$ViewRootHandler.handleMessage:7236 android.os.Handler.dispatchMessage:106
+2026-10-20 20:31:40.487 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  Setup new sync=wmsSync-ViewRootImpl@2c29e4d[QuizActivity]#8
+2026-10-20 20:31:40.487 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  Creating new active sync group ViewRootImpl@2c29e4d[QuizActivity]#9
+2026-10-20 20:31:40.488 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  registerCallbacksForSync syncBuffer=false
+2026-10-20 20:31:40.488 24938-24977 ViewRootIm...zActivity] com.example.practicequizz            I  Received frameDrawingCallback syncResult=0 frameNum=2.
+2026-10-20 20:31:40.488 24938-24977 ViewRootIm...zActivity] com.example.practicequizz            I  mWNT: t=0xb400007a75a36550 mBlastBufferQueue=0xb4000079e5a2fbf0 fn= 2 mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$8.onFrameDraw:13946 android.view.ThreadedRenderer$1.onFrameDraw:792 <bottom of call stack>
+2026-10-20 20:31:40.488 24938-24977 ViewRootIm...zActivity] com.example.practicequizz            I  Setting up sync and frameCommitCallback
+2026-10-20 20:31:40.488 24938-24969 ViewRootIm...zActivity] com.example.practicequizz            I  Received frameCommittedCallback lastAttemptedDrawFrameNum=2 didProduceBuffer=false
+2026-10-20 20:31:40.489 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  reportDrawFinished seqId=0
+2026-10-20 20:31:40.574 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  handleWindowFocusChanged: 1 0 call from android.view.ViewRootImpl.-$$Nest$mhandleWindowFocusChanged:0
+2026-10-20 20:31:40.574 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            D  mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb400007a35a34320}
+2026-10-20 20:31:40.596 24938-24961 ViewRootIm...zActivity] com.example.practicequizz            I  Resizing android.view.ViewRootImpl@ffcf74e: frame = [0,0][1080,2340] reportDraw = false forceLayout = false syncSeqId = -1
+2026-10-20 20:31:40.599 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  handleResized, msg = 4 frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} forceNextWindowRelayout=false displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false
+2026-10-20 20:31:40.968 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  handleAppVisibility mAppVisible = true visible = false
+2026-10-20 20:31:40.972 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  destroyHardwareResources: Callers=android.view.ViewRootImpl.performTraversals:3989 android.view.ViewRootImpl.doTraversal:3345 android.view.ViewRootImpl$TraversalRunnable.run:11437 android.view.Choreographer$CallbackRecord.run:1690 android.view.Choreographer$CallbackRecord.run:1699 android.view.Choreographer.doCallbacks:1154 android.view.Choreographer.doFrame:1080 android.view.Choreographer$FrameDisplayEventReceiver.run:1647 android.os.Handler.handleCallback:958 android.os.Handler.dispatchMessage:99
+2026-10-20 20:31:40.985 24938-25021 ViewRootIm...zActivity] com.example.practicequizz            I  Resizing android.view.ViewRootImpl@ffcf74e: frame = [0,0][1080,2340] reportDraw = false forceLayout = false syncSeqId = -1
+2026-10-20 20:31:40.992 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)8 dur=17 res=0x402 s={false 0x0} ch=true seqId=0
+2026-10-20 20:31:40.993 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  handleResized, msg = 4 frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} forceNextWindowRelayout=false displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false
+2026-10-20 20:31:40.994 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  stopped(true) old = false
+2026-10-20 20:31:40.994 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            D  WindowStopped on com.example.practicequizz/com.example.practicequizz.MainActivity set to true
+2026-10-20 20:31:40.995 24938-24938 MainActivity            com.example.practicequizz            D  onStop
+2026-10-20 20:31:42.248 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  ViewPostIme pointer 0
+2026-10-20 20:31:42.303 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  ViewPostIme pointer 1
+2026-10-20 20:31:42.307 24938-24938 QuizActivity            com.example.practicequizz            I  Правильный ответ. Баллы: 1
+2026-10-20 20:31:43.289 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  ViewPostIme pointer 0
+2026-10-20 20:31:43.349 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  ViewPostIme pointer 1
+2026-10-20 20:31:43.363 24938-24938 QuizActivity            com.example.practicequizz            D  Показан вопрос 2
+2026-10-20 20:31:44.611 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  ViewPostIme pointer 0
+2026-10-20 20:31:44.648 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  ViewPostIme pointer 1
+2026-10-20 20:31:44.650 24938-24938 QuizActivity            com.example.practicequizz            I  Правильный ответ. Баллы: 2
+2026-10-20 20:31:44.992 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  ViewPostIme pointer 0
+2026-10-20 20:31:45.049 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  ViewPostIme pointer 1
+2026-10-20 20:31:45.060 24938-24938 QuizActivity            com.example.practicequizz            D  Показан вопрос 3
+2026-10-20 20:31:46.124 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  ViewPostIme pointer 0
+2026-10-20 20:31:46.158 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  ViewPostIme pointer 1
+2026-10-20 20:31:46.161 24938-24938 QuizActivity            com.example.practicequizz            I  Правильный ответ. Баллы: 3
+2026-10-20 20:31:46.390 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  ViewPostIme pointer 0
+2026-10-20 20:31:46.443 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  ViewPostIme pointer 1
+2026-10-20 20:31:46.453 24938-24938 QuizActivity            com.example.practicequizz            D  Показан вопрос 4
+2026-10-20 20:31:48.008 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  ViewPostIme pointer 0
+2026-10-20 20:31:48.045 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  ViewPostIme pointer 1
+2026-10-20 20:31:48.047 24938-24938 QuizActivity            com.example.practicequizz            I  Правильный ответ. Баллы: 4
+2026-10-20 20:31:48.310 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  ViewPostIme pointer 0
+2026-10-20 20:31:48.346 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  ViewPostIme pointer 1
+2026-10-20 20:31:48.355 24938-24938 QuizActivity            com.example.practicequizz            D  Показан вопрос 5
+2026-10-20 20:31:49.908 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  ViewPostIme pointer 0
+2026-10-20 20:31:49.948 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  ViewPostIme pointer 1
+2026-10-20 20:31:49.949 24938-24938 QuizActivity            com.example.practicequizz            I  Правильный ответ. Баллы: 5
+2026-10-20 20:31:50.318 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  ViewPostIme pointer 0
+2026-10-20 20:31:50.379 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  ViewPostIme pointer 1
+2026-10-20 20:31:50.382 24938-24938 QuizActivity            com.example.practicequizz            I  Викторина завершена. Результат: 5/5
+2026-10-20 20:31:50.404 24938-24938 QuizActivity            com.example.practicequizz            D  onPause
+2026-10-20 20:31:50.441 24938-24938 ResultActivity          com.example.practicequizz            D  onCreate: экран результатов создан
+2026-10-20 20:31:50.441 24938-24938 ResultActivity          com.example.practicequizz            I  Получен результат: Полина, 5/5
+2026-10-20 20:31:50.444 24938-24938 ResultActivity          com.example.practicequizz            D  onStart
+2026-10-20 20:31:50.444 24938-24938 ResultActivity          com.example.practicequizz            D  onResume
+2026-10-20 20:31:50.451 24938-24938 ViewRootIm...tActivity] com.example.practicequizz            I  synced displayState. AttachInfo displayState=2
+2026-10-20 20:31:50.451 24938-24938 ViewRootIm...tActivity] com.example.practicequizz            I  setView = com.android.internal.policy.DecorView@1be67d TM=true
+2026-10-20 20:31:50.465 24938-24938 ViewRootIm...tActivity] com.example.practicequizz            I  Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)0 dur=6 res=0x403 s={true 0xb400007a35a5ec60} ch=true seqId=0
+2026-10-20 20:31:50.466 24938-24938 ViewRootIm...tActivity] com.example.practicequizz            I  performConfigurationChange setNightDimText nightDimLevel=0
+2026-10-20 20:31:50.466 24938-24938 ViewRootIm...tActivity] com.example.practicequizz            D  mThreadedRenderer.initialize() mSurface={isValid=true 0xb400007a35a5ec60} hwInitialized=true
+2026-10-20 20:31:50.467 24938-24938 ViewRootIm...tActivity] com.example.practicequizz            D  reportNextDraw android.view.ViewRootImpl.performTraversals:4781 android.view.ViewRootImpl.doTraversal:3345 android.view.ViewRootImpl$TraversalRunnable.run:11437 android.view.Choreographer$CallbackRecord.run:1690 android.view.Choreographer$CallbackRecord.run:1699
+2026-10-20 20:31:50.467 24938-24938 ViewRootIm...tActivity] com.example.practicequizz            I  Setup new sync=wmsSync-ViewRootImpl@433e4e6[ResultActivity]#10
+2026-10-20 20:31:50.467 24938-24938 ViewRootIm...tActivity] com.example.practicequizz            I  Creating new active sync group ViewRootImpl@433e4e6[ResultActivity]#11
+2026-10-20 20:31:50.468 24938-24938 ViewRootIm...tActivity] com.example.practicequizz            I  registerCallbacksForSync syncBuffer=false
+2026-10-20 20:31:50.471 24938-24976 ViewRootIm...tActivity] com.example.practicequizz            I  Received frameDrawingCallback syncResult=0 frameNum=1.
+2026-10-20 20:31:50.471 24938-24976 ViewRootIm...tActivity] com.example.practicequizz            I  mWNT: t=0xb400007a75a31590 mBlastBufferQueue=0xb4000079e5a3aaf0 fn= 1 mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$8.onFrameDraw:13946 android.view.ThreadedRenderer$1.onFrameDraw:792 <bottom of call stack>
+2026-10-20 20:31:50.471 24938-24976 ViewRootIm...tActivity] com.example.practicequizz            I  Setting up sync and frameCommitCallback
+2026-10-20 20:31:50.475 24938-24969 ViewRootIm...tActivity] com.example.practicequizz            I  Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+2026-10-20 20:31:50.476 24938-24938 ViewRootIm...tActivity] com.example.practicequizz            I  reportDrawFinished seqId=0
+2026-10-20 20:31:50.476 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  handleWindowFocusChanged: 0 0 call from android.view.ViewRootImpl.-$$Nest$mhandleWindowFocusChanged:0
+2026-10-20 20:31:50.548 24938-24938 ViewRootIm...tActivity] com.example.practicequizz            I  handleWindowFocusChanged: 1 0 call from android.view.ViewRootImpl.-$$Nest$mhandleWindowFocusChanged:0
+2026-10-20 20:31:50.549 24938-24938 ViewRootIm...tActivity] com.example.practicequizz            D  mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb400007a35a5ec60}
+2026-10-20 20:31:50.936 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  handleAppVisibility mAppVisible = true visible = false
+2026-10-20 20:31:50.938 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  destroyHardwareResources: Callers=android.view.ViewRootImpl.performTraversals:3989 android.view.ViewRootImpl.doTraversal:3345 android.view.ViewRootImpl$TraversalRunnable.run:11437 android.view.Choreographer$CallbackRecord.run:1690 android.view.Choreographer$CallbackRecord.run:1699 android.view.Choreographer.doCallbacks:1154 android.view.Choreographer.doFrame:1080 android.view.Choreographer$FrameDisplayEventReceiver.run:1647 android.os.Handler.handleCallback:958 android.os.Handler.dispatchMessage:99
+2026-10-20 20:31:50.947 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)8 dur=8 res=0x402 s={false 0x0} ch=true seqId=0
+2026-10-20 20:31:50.948 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  stopped(true) old = false
+2026-10-20 20:31:50.948 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            D  WindowStopped on com.example.practicequizz/com.example.practicequizz.QuizActivity set to true
+2026-10-20 20:31:50.949 24938-24938 QuizActivity            com.example.practicequizz            D  onStop
+2026-10-20 20:31:50.950 24938-24938 QuizActivity            com.example.practicequizz            D  onDestroy
+2026-10-20 20:31:50.951 24938-24938 ViewRootIm...zActivity] com.example.practicequizz            I  dispatchDetachedFromWindow
+2026-10-20 20:31:51.443 24938-24938 ViewRootIm...tActivity] com.example.practicequizz            I  ViewPostIme pointer 0
+2026-10-20 20:31:51.468 24938-24938 ViewRootIm...tActivity] com.example.practicequizz            I  ViewPostIme pointer 1
+2026-10-20 20:31:51.469 24938-24938 ResultActivity          com.example.practicequizz            I  Пользователь вернулся на главный экран
+2026-10-20 20:31:51.483 24938-24938 ResultActivity          com.example.practicequizz            D  onPause
+2026-10-20 20:31:51.489 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  handleAppVisibility mAppVisible = false visible = true
+2026-10-20 20:31:51.489 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  stopped(false) old = true
+2026-10-20 20:31:51.489 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            D  WindowStopped on com.example.practicequizz/com.example.practicequizz.MainActivity set to false
+2026-10-20 20:31:51.490 24938-24938 MainActivity            com.example.practicequizz            D  onStart
+2026-10-20 20:31:51.491 24938-24938 MainActivity            com.example.practicequizz            D  onResume
+2026-10-20 20:31:51.505 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)0 dur=9 res=0x403 s={true 0xb400007a35a34320} ch=true seqId=0
+2026-10-20 20:31:51.506 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            D  mThreadedRenderer.initialize() mSurface={isValid=true 0xb400007a35a34320} hwInitialized=true
+2026-10-20 20:31:51.506 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            D  reportNextDraw android.view.ViewRootImpl.performTraversals:4781 android.view.ViewRootImpl.doTraversal:3345 android.view.ViewRootImpl$TraversalRunnable.run:11437 android.view.Choreographer$CallbackRecord.run:1690 android.view.Choreographer$CallbackRecord.run:1699
+2026-10-20 20:31:51.506 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  Setup new sync=wmsSync-ViewRootImpl@e540f89[MainActivity]#12
+2026-10-20 20:31:51.506 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  Creating new active sync group ViewRootImpl@e540f89[MainActivity]#13
+2026-10-20 20:31:51.507 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  registerCallbacksForSync syncBuffer=false
+2026-10-20 20:31:51.514 24938-24977 ViewRootIm...nActivity] com.example.practicequizz            I  Received frameDrawingCallback syncResult=0 frameNum=1.
+2026-10-20 20:31:51.515 24938-24977 ViewRootIm...nActivity] com.example.practicequizz            I  mWNT: t=0xb400007a75a2e2b0 mBlastBufferQueue=0xb4000079e5a2fbf0 fn= 1 mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$8.onFrameDraw:13946 android.view.ThreadedRenderer$1.onFrameDraw:792 <bottom of call stack>
+2026-10-20 20:31:51.515 24938-24977 ViewRootIm...nActivity] com.example.practicequizz            I  Setting up sync and frameCommitCallback
+2026-10-20 20:31:51.517 24938-24969 ViewRootIm...nActivity] com.example.practicequizz            I  Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+2026-10-20 20:31:51.517 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  reportDrawFinished seqId=0
+2026-10-20 20:31:51.518 24938-24938 ViewRootIm...tActivity] com.example.practicequizz            I  handleWindowFocusChanged: 0 0 call from android.view.ViewRootImpl.-$$Nest$mhandleWindowFocusChanged:0
+2026-10-20 20:31:51.574 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  handleWindowFocusChanged: 1 0 call from android.view.ViewRootImpl.-$$Nest$mhandleWindowFocusChanged:0
+2026-10-20 20:31:51.574 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            D  mThreadedRenderer.initializeIfNeeded()#2 mSurface={isValid=true 0xb400007a35a34320}
+2026-10-20 20:31:51.593 24938-24957 ViewRootIm...nActivity] com.example.practicequizz            I  Resizing android.view.ViewRootImpl@e4c0efe: frame = [0,0][1080,2340] reportDraw = false forceLayout = false syncSeqId = -1
+2026-10-20 20:31:51.593 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  handleResized, msg = 4 frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} forceNextWindowRelayout=false displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false
+2026-10-20 20:31:51.645 24938-24957 ViewRootIm...nActivity] com.example.practicequizz            I  Resizing android.view.ViewRootImpl@e4c0efe: frame = [0,0][1080,2340] reportDraw = false forceLayout = false syncSeqId = -1
+2026-10-20 20:31:51.645 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  handleResized, msg = 4 frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} forceNextWindowRelayout=false displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false
+2026-10-20 20:31:51.669 24938-24957 ViewRootIm...nActivity] com.example.practicequizz            I  Resizing android.view.ViewRootImpl@e4c0efe: frame = [0,0][1080,2340] reportDraw = false forceLayout = false syncSeqId = -1
+2026-10-20 20:31:51.676 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  handleResized, msg = 4 frames=ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} forceNextWindowRelayout=false displayId=0 dragResizing=false compatScale=1.0 frameChanged=false attachedFrameChanged=false configChanged=false displayChanged=false compatScaleChanged=false
+2026-10-20 20:31:51.967 24938-24938 ViewRootIm...tActivity] com.example.practicequizz            I  handleAppVisibility mAppVisible = true visible = false
+2026-10-20 20:31:51.973 24938-24938 ViewRootIm...tActivity] com.example.practicequizz            I  destroyHardwareResources: Callers=android.view.ViewRootImpl.performTraversals:3989 android.view.ViewRootImpl.doTraversal:3345 android.view.ViewRootImpl$TraversalRunnable.run:11437 android.view.Choreographer$CallbackRecord.run:1690 android.view.Choreographer$CallbackRecord.run:1699 android.view.Choreographer.doCallbacks:1154 android.view.Choreographer.doFrame:1080 android.view.Choreographer$FrameDisplayEventReceiver.run:1647 android.os.Handler.handleCallback:958 android.os.Handler.dispatchMessage:99
+2026-10-20 20:31:51.980 24938-24938 ViewRootIm...tActivity] com.example.practicequizz            I  Relayout returned: old=(0,0,1080,2340) new=(0,0,1080,2340) relayoutAsync=false req=(1080,2340)8 dur=5 res=0x402 s={false 0x0} ch=true seqId=0
+2026-10-20 20:31:51.980 24938-24938 ViewRootIm...tActivity] com.example.practicequizz            I  stopped(true) old = false
+2026-10-20 20:31:51.980 24938-24938 ViewRootIm...tActivity] com.example.practicequizz            D  WindowStopped on com.example.practicequizz/com.example.practicequizz.ResultActivity set to true
+2026-10-20 20:31:51.981 24938-24938 ResultActivity          com.example.practicequizz            D  onStop
+2026-10-20 20:31:51.982 24938-24938 ResultActivity          com.example.practicequizz            D  onDestroy
+2026-10-20 20:31:51.982 24938-24938 ViewRootIm...tActivity] com.example.practicequizz            I  dispatchDetachedFromWindow
+2026-10-20 20:31:52.024 24938-24976 ViewRootIm...nActivity] com.example.practicequizz            I  mWNT: t=0xb400007a75a25670 mBlastBufferQueue=0xb4000079e5a2fbf0 fn= 4 mRenderHdrSdrRatio=1.0 caller= android.view.SyncRtSurfaceTransactionApplier.applyTransaction:96 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0:69 android.view.SyncRtSurfaceTransactionApplier.$r8$lambda$SgowXC58rj3PR958kHUfRgLZmvE:0
+2026-10-20 20:31:52.615 24938-24938 ViewRootIm...nActivity] com.example.practicequizz            I  onDisplayChanged oldDisplayState=2 newDisplayState=2
+---------------------------- PROCESS ENDED (24938) for package com.example.practicequizz ----------------------------

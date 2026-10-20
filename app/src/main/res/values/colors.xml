@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lavender">#A78BDA</color>
+    <color name="lavender_light">#F1EBFA</color>
+    <color name="lavender_dark">#7256A5</color>
+
+    <color name="background">#FAF9FD</color>
+    <color name="surface">#FFFFFF</color>
+
+    <color name="text_primary">#292536</color>
+    <color name="text_secondary">#817B8D</color>
+
+    <color name="answer_correct">#E4F5E9</color>
+    <color name="answer_correct_text">#287A49</color>
+    <color name="answer_wrong">#FCE8EA</color>
+    <color name="answer_wrong_text">#A23D4D</color>
+    <color name="answer_border">#E5DDEE</color>
+</resources>

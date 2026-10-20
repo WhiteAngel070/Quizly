@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/screen_padding"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/tvLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/lavender_dark"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/tvResultLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result_label"
+        android:textSize="12sp"
+        android:textColor="@color/text_secondary"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/tvLogo"/>
+
+    <LinearLayout
+        android:id="@+id/resultContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            android:src="@android:drawable/btn_star_big_on"
+            android:background="@color/lavender_light"
+            android:padding="16dp"
+            android:contentDescription="@string/result_icon_description"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:id="@+id/tvResultGreeting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/result_title"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/result_description"
+            android:textSize="@dimen/body_size"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:id="@+id/tvResultScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="42sp"
+            android:textStyle="bold"
+            android:textColor="@color/lavender_dark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/result_score_label"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="12dp"/>
+
+        <ProgressBar
+            android:id="@+id/resultProgress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:progressTint="@color/lavender"
+            android:progressBackgroundTint="@color/lavender_light"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:id="@+id/tvResultMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/body_size"
+            android:textColor="@color/lavender_dark"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/resultActions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnRetry"
+            style="@style/QuizlyPrimaryButton"
+            android:text="@string/result_retry"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnHome"
+            style="@style/QuizlySecondaryButton"
+            android:text="@string/result_home"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
