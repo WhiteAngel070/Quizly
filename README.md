@@ -12,4 +12,18 @@ Android SDK, Kotlin, XML Layouts.
 
 Минимальная версия SDK - 26  
 Версия SDK ориентир - 37  
-Версия SDK для комиляции - 37 
+Версия SDK для комиляции - 37
+
+### Скриншоты приложения
+
+Ниже представлены основные экраны и элементы интерфейса приложения **Quizly**.
+
+![Скриншот 1](screenshots/screenshot_1.jpeg)
+
+![Скриншот 2](screenshots/screenshot_2.jpg)
+
+![Скриншот 3](screenshots/screenshot_3.jpg)
+
+![Скриншот 4](screenshots/screenshot_4.jpg)
+
+![Скриншот 5](screenshots/screenshot_5.jpg)
